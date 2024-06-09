@@ -1,0 +1,182 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #404040;
+    background-color: #f9f9f9;
+    margin-top: 100px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #337ab7;
+}
+
+li {
+    background-color: #23527c;
+}
+
+
+/* Form styles */
+
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    color: #f7f7f7;
+}
+
+button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+
+/* Project list styles */
+
+.project-list {
+    margin-top: 40px;
+}
+
+.project-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-list li {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-list li:last-child {
+    border-bottom: none;
+}
+
+.project-list li button {
+    margin-right: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-list li button:hover {
+    background-color: #23527c;
+}
+
+
+/* Editing styles */
+
+.editing {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.editing label {
+    margin-bottom: 10px;
+}
+
+.editing input[type="text"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.editing button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editing button[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+.project-list {
+    margin-top: 40px;
+}
+
+.project-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-list li {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-list li:last-child {
+    border-bottom: none;
+}
+
+.project-list li button {
+    margin-right: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-list li button:hover {
+    background-color: #23527c;
+}
+
+.project-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    margin-bottom: 20px;
+}
+
+.project-status {
+    font-size: 18px;
+    color: #337ab7;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #666;
+}
